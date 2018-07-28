@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+  <title>register form</title>
+</head>
+<body>
+  <h1>Register</h1>
+  <form>
+    <div>
+      <label for="fName">Firt Name:</label>
+      <input id="fName" placeholder="Betty" type="text" name="fName" value="" required>
+      <label for="lName">Last Name:</label>
+      <input id="lName" placeholder="Krocker"type="text" name="lName" value="" required>
+    </div>
+    <div>
+      <input type="radio" name="gender" value="male" id="male">
+      <label for="male">Male</label>
+      <input type="radio" name="gender" value="female" id="female">
+      <label for="female">Female</label>
+      <input type="radio" name="gender" value="other" id="other">
+      <label for="other">Other</label>
+  </div>
+  <div>
+  <label for="email">Email:</label>
+    <input id="email" placeholder="Enter Email Adress" type="email" name="email" required>
+    <label for="pword">Password:</label>
+    <input id="pword" placeholder="Enter Password" type="password" name="password" minlength="5" maxlength="10" required>
+  </div>
+  <div>
+    <label>Birthday:
+  <select class="dob" name="month">
+    <option>Month</option>
+    <option >Jan</option>
+    <option >Feb</option>
+    <option >March</option>
+    <option >April</option>
+  </select>
+  <select class="dob" name="Day">
+    <option>Day</option>
+    <option>01</option>
+    <option>02</option>
+    <option>03</option>
+    <option>04</option>
+  </select>
+  <select class="dob" name="year">
+    <option>Year</option>
+    <option >1998</option>
+    <option >1997</option>
+    <option>1996</option>
+    <option>1995</option>
+    <option>1994</option>
+  </select>
+</label>
+  </div>
+  <div>
+    <label for="t&c">I agree to the terms and conditions</label>
+    <input id="t&c"type="checkbox" name="t&c" required></br></br>
+  </div>
+<input type="submit">
+  </form>
+</body>

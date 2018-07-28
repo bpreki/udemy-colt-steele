@@ -1,0 +1,13 @@
+/* there are 147 predefined named colors in html and css*/
+body{
+  background: url(img/bkgrnd.jpg);
+  background-size: cover;
+}
+/*   --hexidecimal-- */
+h1{
+  color: #e2932b;
+}
+/*   --rgb-- also ---rgba--- for opacity option*/
+li{
+  color: rgb(255, 140, 0);
+}

@@ -1,0 +1,18 @@
+div{
+  width: 55%;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 16px solid #bdc3c7;
+}
+h6{
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color:rgb(39, 117, 161);
+}
+p{
+  text-align: justify;}
+  .bl{
+    border-left: 2px solid gray;
+    font-family: 'Merienda','cursive';
+  }
