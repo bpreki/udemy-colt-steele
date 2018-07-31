@@ -1,4 +1,12 @@
 img{
   object-fit: contain;
-  height:175px;
+  height: inherit;
+  overflow: hidden;
+}
+.row{
+  max-height: 33vh;
+  padding: 0 0;
+}
+.card{
+  max-height: 30%
 }
