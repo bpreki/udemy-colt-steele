@@ -13,7 +13,12 @@ var h1 = document.querySelector('h1');
 init();
 
 function init(){
-  //mode button event listeners
+  intmode()
+  initsqr()
+  reset();
+}
+
+function intmode(){
   for(var i = 0; i< mode.length; i++){
     mode[i].addEventListener("click", function(){
       mode[0].classList.remove("selected");
@@ -23,6 +28,9 @@ function init(){
       reset();
     });
   }
+}
+
+function initsqr(){
   for(i=0;i<squares.length;i++){
     squares[i].addEventListener("click", function(){
       var clickedColor = this.style.backgroundColor;
@@ -39,8 +47,8 @@ function init(){
       }
     });
   }
-  reset();
 }
+
 function reset(){
   colors= gnrndclr(numsqr);
   pickedColor = pickcolor();
