@@ -1,0 +1,12 @@
+body{
+  background-color: #232323;
+}
+h1{
+  color: white}
+.square{
+  width:30%;
+  background-color: yellow ;
+  padding-bottom: 30%;
+  margin: 1.66%;
+  float: left;
+}
