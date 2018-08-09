@@ -6,3 +6,4 @@ $(".highlight").css("width",'200px');
 $("#third").css("border", "2px solid orange");
 // ***BONUS*** select div one apply text color pink ***bonus***
 $("div:contains('1')").css("color", "pink");
+//^^^^^^offcial solution $("div:first-of-type")^^^^
