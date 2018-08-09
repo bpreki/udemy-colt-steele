@@ -23,6 +23,9 @@ $("input[type ='text']").keypress(function(e){
     //selects text from input
     var todo = $(this).val();
     //creates new todo element
-    $("ul").append("<li><span>x</span> " +todo+"</li>")
+    $("ul").append("<li><span><i class='fas fa-trash-alt'></i></span> " +todo+"</li>")
   }
+})
+$("#clip").click(function(){
+  $("input[type ='text']").fadeToggle();
 })
